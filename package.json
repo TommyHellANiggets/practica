@@ -1,0 +1,22 @@
+{
+  "name": "algorithms_practicum",
+  "version": "1.0.0",
+  "description": "Практические задания по алгоритмам",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/fibonacci_tests.js",
+    "test:recursive": "node fibonacci/fib_recursive.js",
+    "test:loop": "node fibonacci/fib_loop.js",
+    "test:array": "node fibonacci/fib_array.js",
+    "test:binet": "node fibonacci/fib_binet.js",
+    "test:even-odd": "node fibonacci/fib_big_even_odd.js"
+  },
+  "keywords": [
+    "algorithms",
+    "fibonacci",
+    "huffman",
+    "javascript"
+  ],
+  "author": "Акулов Платон",
+  "license": "ISC"
+} 
